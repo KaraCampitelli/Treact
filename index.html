@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,14 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="./index.js"></script>
 </head>
+
 <body>
     <section id="landing">
         <nav>
-            <div class="nav__container">
-                <img class="logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Logo">
+            <div class="row nav__row">
+                <div class="nav__logo">
+                <img class="nav__logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Logo">
+                </div>
                 <div class="nav__description">
                     <h1>Treact</h1>
                 </div>
@@ -24,7 +28,111 @@
                     <li><a href="#Sign Up" class="nav__link nav__link--primary">Sign Up</a></li>
                 </ul>
             </div>
+            <button class="btn__menu" onclick="openMenu ()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="btn__menu--svg" />
+                    <line xl="3" y1="12" x2="21" y2="12"></line>
+                    <line xl="3" y1="6" x2="21" y2="6"></line>
+                    <line xl="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            </div>
         </nav>
+        <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu ()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal__links">
+                <a href="#About" class="modal__link">About</a>
+                <a href="#Blog" class="modal__link">Blog</a>
+                <a href="#Pricing" class="modal__link">Pricing</a>
+                <a href="#Contact Us" class="modal__link">Contact Us</a>
+                <a href="#Login" class="modal__link">Login</a>
+                <a href="#Sign Up" class="modal__link model__link--primary">Sign Up</a>
+            </div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
+                    <h2>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</h2>
+                </div>
+        </header>
     </section>
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="row__narrow">
+                    <h2><span class="purple">FEATURES</span></h2>
+                    <h1>We Have Amazing <span class="purple">Service</span></h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde ut, praesentium recusandae sed repudiandae labore architecto quas voluptas aspernatur adipisci debitis ducimus tempora veritatis velit assumenda at nesciunt nam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="quality"
+        <div class="container">
+            <div class="row">
+                <h2><span class="purple">QUALITY</span></h2>
+                <h1>Designed & Developed by <span class="purple">Professionals.</span></h1>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde ut, praesentium recusandae sed repudiandae labore architecto quas voluptas aspernatur adipisci debitis ducimus tempora veritatis velit assumenda at nesciunt nam!</p>
+            </div>
+        </div>
+        </section>
+        <section id="steps">
+            <div class="container">
+                <div class="row">
+                    <h2><span class="purple">STEPS</span></h2>
+                    <h1>Easy Steps to <span class="purple">Get Started.</span></h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde ut, praesentium recusandae sed repudiandae labore architecto quas voluptas aspernatur adipisci debitis ducimus tempora veritatis velit assumenda at nesciunt nam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="Values">
+            <div class="container">
+                <div class="row">
+                    <h2><span class="purple">VALUES</span></h2>
+                    <h1>We Always Abide by Our<span class="purple">Principles.</span></h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde ut, praesentium recusandae sed repudiandae labore architecto quas voluptas aspernatur adipisci debitis ducimus tempora veritatis velit assumenda at nesciunt nam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="Pricing">
+            <div class="container">
+                <div class="row">
+                    <h2><span class="purple">Pricing</span></h2>
+                    <h1>Reasonable & Flexible<span class="purple">Plans.</span></h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde ut, praesentium recusandae sed repudiandae labore architecto quas voluptas aspernatur adipisci debitis ducimus tempora veritatis velit assumenda at nesciunt nam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="TESTIMONIALS">
+            <div class="container">
+                <div class="row">
+                    <h2><span class="purple">Pricing</span></h2>
+                    <h1>Our Clients<span class="purple">Love Us.</span></h1>
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui unde ut, praesentium recusandae sed repudiandae labore architecto quas voluptas aspernatur adipisci debitis ducimus tempora veritatis velit assumenda at nesciunt nam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="start">
+            <div class="container">
+                <div class="row">
+                    <h1> Developers all over the world are happily using Treact.</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row footer__row">
+
+        </div>
+    </footer>
 </body>
+
 </html>
